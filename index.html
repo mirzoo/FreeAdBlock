@@ -11,34 +11,57 @@
 </head>
 <body>
 
+    <header class="header">
+        <div class="container">
+            <div class="header-wrap">
+                <a href="./index.html" class="header-logo"><img src="./img/logo.svg" alt="logo"></a>
+
+                <div class="header-burger">
+                    <span></span>
+                </div>
+
+                <nav class="header-menu">
+                    <ul class="header-list">
+                        <li><a href="./index.html" class="header-link">Home</a></li>
+                        <li><a href="./privacy.html" class="header-link">Privacy policy</a></li>
+                        <li><a href="./terms.html" class="header-link">Terms of use</a></li>
+                        <li><a href="./support.html" class="header-link">Support</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
     <section class="hero">
         <div class="container">
-            <div class="hero-bg">
+            <div class="hero-wrap">
                 <img src="./img/bg.png" alt="image" class="hero-font">
                 <div class="hero-info">
-                <h1 class="hero-title">The best AdBlocker
-                    completely free</h1>
-                <a href="#" class="button hero-button"><img src="./img/button.svg" alt="btn"></a>
-            </div>
+                    <h1 class="hero-title">The best AdBlocker
+                        completely free</h1>
+                    <a href="#" class="button hero-button"><img src="./img/button.svg" alt="btn"></a>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="features">
         <div class="container">
-            <img src="./img/" alt="image" class="features-img">
-            <div class="features-list">
-                <div class="features-item">
-                    <h1 class="features-item__title">2x</h1>
-                    <span class="features-item__subtitle">faster page speed</span>
-                </div>
-                <div class="features-item">
-                    <h1 class="features-item__title">2x</h1>
-                    <span class="features-item__subtitle">faster page speed</span>
-                </div>
-                <div class="features-item">
-                    <h1 class="features-item__title">2x</h1>
-                    <span class="features-item__subtitle">faster page speed</span>
+            <div class="features-wrap">
+                <img src="./img/apple.png" alt="image" class="features-img">
+                <div class="features-list">
+                    <div class="features-item">
+                        <h1 class="features-item__title">2x</h1>
+                        <span class="features-item__subtitle">faster page speed</span>
+                    </div>
+                    <div class="features-item">
+                        <h1 class="features-item__title">2x</h1>
+                        <span class="features-item__subtitle">less traffic consumption</span>
+                    </div>
+                    <div class="features-item">
+                        <h1 class="features-item__title">stop</h1>
+                        <span class="features-item__subtitle">any kind of ads</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -46,9 +69,13 @@
 
     <footer class="footer">
         <div class="container">
-            <a href="#" class="button"><img src="./img/button.svg" alt="btn"></a>
+            <div class="footer-wrap">
+              <a href="#" class="button footer-button"><img src="./img/button.svg" alt="btn"></a>
+            </div>
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

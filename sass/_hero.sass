@@ -1,5 +1,7 @@
 .hero
-    &-bg
+    padding: 40px 0
+    &-wrap
+        height: 530px
         display: flex
         flex-direction: column
         align-content: center
@@ -9,13 +11,34 @@
         z-index: -1
         position: absolute
         opacity: 15%
-        top: 140px
+        top: 20%
     &-info
         position: relative
-        top: 120px
+        top: 30%
         text-align: center
     &-title
         font-size: 72px
         font-weight: 800
         text-align: center
         top: 50px
+        margin-bottom: 50px
+        line-height: 98px
+    &-button
+        transition: 0.3s
+        margin: 0
+        padding: 0
+        &:hover
+            box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.15)
+
+
+@media ( max-width: 425px)
+    .hero
+        &-font
+            top: 15%
+        &-info
+            top: 40%
+        &-title
+            font-size: 32px
+            margin-bottom: 150px
+            line-height: 44px
+

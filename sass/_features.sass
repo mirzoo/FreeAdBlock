@@ -1,0 +1,31 @@
+.features
+    padding: 60px 20px
+    &-wrap
+        display: flex
+        justify-content: space-between
+    &-item
+        margin-bottom: 40px
+        text-align: end
+        &__title
+            font-size: 72px
+            font-weight: 700
+            color: #30AF6E
+            margin-bottom: 16px
+        &__subtitle
+            font-size: 22px
+            font-weight: 700
+
+@media ( max-width: 425px)
+    .features
+        &-wrap
+            flex-wrap: wrap
+            justify-content: center
+        &-img
+            margin-bottom: 35px
+        &-item
+            margin-bottom: 32px
+            text-align: center
+        &__title
+            font-size: 42px
+        &__subtitle
+            font-size: 16px
